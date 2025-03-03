@@ -3,14 +3,51 @@
     "sections": [
         {
             "htmlFile": "sections/section1.html",
-            "backgroundImage": "images/bg.jpg"
+            "backgroundImage": "images/2.png"
         },
         {
-            "htmlFile": "sections/section2.html",
-            "backgroundImage": "images/sample.jpg"
+            "htmlFile": "sections/section1.html",
+            "backgroundImage": "images/3.png"
         },
         {
-            "htmlFile": "sections/section3.html"
+            "htmlFile": "sections/section1.html",
+            "backgroundImage": "images/4.png"
+        },
+        {
+            "htmlFile": "sections/section1.html",
+            "backgroundImage": "images/5.png"
+        },
+        {
+            "htmlFile": "sections/section1.html",
+            "backgroundImage": "images/6.png"
+        },
+        {
+            "htmlFile": "sections/section1.html",
+            "backgroundImage": "images/7.png"
+        },
+        {
+            "htmlFile": "sections/section1.html",
+            "backgroundImage": "images/8.png"
+        },
+        {
+            "htmlFile": "sections/section1.html",
+            "backgroundImage": "images/9.png"
+        },
+        {
+            "htmlFile": "sections/section1.html",
+            "backgroundImage": "images/10.png"
+        },
+        {
+            "htmlFile": "sections/section1.html",
+            "backgroundImage": "images/11.png"
+        },
+        {
+            "htmlFile": "sections/section1.html",
+            "backgroundImage": "images/12.png"
+        },
+        {
+            "htmlFile": "sections/section1.html",
+            "backgroundImage": "images/13.png"
         }
     ]
 }

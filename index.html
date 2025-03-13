@@ -8,6 +8,95 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
       <style>
+
+
+@media screen and (min-width: 1025px) {
+
+     .swiper {
+            width: 100%;
+            height: 100vh;
+        }
+
+        .swiper-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+            font-size: 1.2rem;
+            color: white;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .swiper-slide.has-bg {
+            background-size: cover;
+            background-position: top center;
+            background-repeat: no-repeat;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .bottom-container {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        .floating-form {
+            width: 90%;
+            max-width: 400px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .floating-form input {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        .floating-form button {
+            background: #1E90FF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .copyright {
+            margin-top: 10px;
+            font-size: 0.8rem;
+        }
+
+       
+            .swiper-slide {
+                font-size: 1rem;
+                padding: 10px;
+            }
+            .swiper-slide.has-bg {
+                background-size: contain;
+            }
+    
+
+}
+
+
+          
         body, html {
             margin: 0;
             padding: 0;
@@ -17,6 +106,10 @@
              background: #000;
         }
 
+
+          
+ @media screen and (max-width: 768px) {
+          
         .swiper {
             width: 100%;
             height: 100vh;
@@ -88,7 +181,7 @@
             font-size: 0.8rem;
         }
 
-        @media screen and (max-width: 768px) {
+       
             .swiper-slide {
                 font-size: 1rem;
                 padding: 10px;
